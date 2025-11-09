@@ -1,3 +1,4 @@
+package Problem1;
 /**
  * Student class that extends Person
  * It includes additional attributes such as student ID number and GPA.
@@ -54,5 +55,14 @@ class Student extends Person {
      */
     public void setGPA(double gpa) {
         myGPA = gpa;
+    }
+
+    /**
+     * toString method to represent the Student object as a string
+     * @return string representation of the Student object
+     */
+    @Override
+    public String toString() {
+        return super.toString() + ", ID Number: " + myIdNum + ", GPA: " + myGPA;
     }
 }

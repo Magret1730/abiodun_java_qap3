@@ -1,3 +1,4 @@
+package Problem1;
 /**
  * Teacher class that extends Person class
  * It includes additional attributes such as subject taught and annual salary.

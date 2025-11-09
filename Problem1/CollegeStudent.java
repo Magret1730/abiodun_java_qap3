@@ -1,3 +1,4 @@
+package Problem1;
 /**
  * CollegeStudent class that extends the Student class.
  * It includes additional attributes such as major and year.

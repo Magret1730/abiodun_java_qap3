@@ -1,3 +1,4 @@
+package Problem1;
 /**
  * This class represents a Person with attributes such as name, age, and gender.
  * It provides constructors, getters, setters, and a toString method for easy representation.
@@ -77,6 +78,6 @@ public class Person {
      * @return String representation of the Person object
      */
     public String toString() { 
-        return myName + ", age: " + myAge + ", gender: " + myGender;
+        return "Name: " + myName + ", age: " + myAge + ", gender: " + myGender;
     }
 }
