@@ -22,5 +22,37 @@ class Student extends Person {
         super(name, age, gender);
         myIdNum = idNum;
         myGPA = gpa;
-    
-    } }
+    }
+
+    /**
+     * Getter for student ID number
+     * @return student ID number
+     */
+    public String getIdNum() {
+        return myIdNum;
+    }
+
+    /**
+     * Setter for student ID number
+     * @param idNum student ID number
+     */
+    public void setIdNum(String idNum) {
+        myIdNum = idNum;
+    }
+
+    /**
+     * Getter for GPA
+     * @return GPA
+     */
+    public double getGPA() {
+        return myGPA;
+    }
+
+    /**
+     * Setter for GPA
+     * @param gpa GPA
+     */
+    public void setGPA(double gpa) {
+        myGPA = gpa;
+    }
+}

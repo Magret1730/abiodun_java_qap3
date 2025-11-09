@@ -25,6 +25,54 @@ public class Person {
     }
 
     /**
+     * Getter for name
+     * @return name of the person
+     */
+    public String getNAme() {
+        return myName;
+    }
+
+    /**
+     * Setter for name
+     * @param name of the person
+     */
+    public void setName(String name) {
+        myName = name;
+    }
+
+    /**
+     * Getter for age
+     * @return age of the person
+     */
+    public int getAge() {
+        return myAge;
+    }
+
+    /**
+     * Setter for age
+     * @param age of the person
+     */
+    public void setAge(int age) {
+        myAge = age;
+    }
+
+    /**
+     * Getter for gender
+     * @return gender of the person
+     */
+    public String getGender() {
+        return myGender;
+    }
+
+    /**
+     * Setter for gender
+     * @param gender of the person
+     */
+    public void setGender(String gender) {
+        myGender = gender;
+    }
+
+    /**
      * Overriden toString method to represent the Person object as a string.
      * @return String representation of the Person object
      */
