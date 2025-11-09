@@ -1,5 +1,11 @@
 package Problem1;
 
+/**
+ * Demo class to test the Person, Student, Teacher, and CollegeStudent classes.
+ * 
+ * Author: Abiodun Magret Oyedele
+ * Date: 2024-9-9
+ */
 public class Demo {
     public static void main(String[] args) {
         Person bob = new Person("Coach Bob", 27, "M");
